@@ -1,2 +1,5 @@
 # Snpc
-This is a simple capture tool of data packets.简易数据包捕获器。Snpc(Simple Network Packet Capture)
+简易数据包捕获器 | Snpc(Simple Network Packet Capture)
+#Method of application
+1.Open cmd,then cd to project and use "pip install -r requirements.txt"
+2."python main.py"
