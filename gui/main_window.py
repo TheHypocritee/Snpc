@@ -1,8 +1,6 @@
 
 import PySimpleGUI as sg
-import real_time_capture_window
-import offline_capture
-from gui import filter_capture, census_capture
+from gui import filter_capture, census_capture,offline_capture,real_time_capture_window
 
 
 def main_window():
@@ -46,5 +44,3 @@ def main_window():
         filter_capture.handle_filter_capture_window_events(event, values,window)
 
     window.close()
-
-main_window()
